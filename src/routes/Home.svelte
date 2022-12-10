@@ -55,7 +55,7 @@
 
     if (docSnap.exists()) {
       console.log("Document data:", docSnap.data());
-      location.replace(`http://localhost:5173/#/doc/${$userEmail}/${docId}`);
+      location.replace(`${window.location.href}#/doc/${$userEmail}/${docId}`);
     }
   }
   async function getDocuments() {
