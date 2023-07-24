@@ -73,7 +73,7 @@
 
 <MaterialApp>
   <AppBar>
-    <a slot="title" href="localhost:5173/#"
+    <a slot="title" href="localhost:5173"
       ><img src="assets/doc.png" alt="doc" /></a
     >
     <p>{docTitle}</p>

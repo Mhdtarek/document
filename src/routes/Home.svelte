@@ -35,6 +35,9 @@
   const db = getFirestore(app);
   let Documents = [];
 
+  function goHome() {
+    location.replace(`${window.location.protocol}${window.location.host}`);
+  }
   async function addDocument() {
     if (!title) {
       return;
@@ -74,7 +77,7 @@
 
 <MaterialApp>
   <AppBar>
-    <a slot="title" href="localhost:5173/#/"
+    <a slot="title" href="localhost:5173/"
       ><img src="assets/doc.png" alt="doc" /></a
     >
   </AppBar>
@@ -91,7 +94,6 @@
             >
               <Icon size="32px" path={mdiBookPlusMultipleOutline} />
             </Button>
-            <p class="font-weight-bold">Blank</p>
           </Col>
         </Row>
       </div>
