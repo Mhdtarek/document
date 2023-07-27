@@ -1,2 +1,2 @@
-INVALID DOMAIN
-<a href="localhost:5173/#/">habibi go back</a>
+INVALID ROUTE; PLEASE GO BACK
+<a href="localhost:5173/#/">go back</a>

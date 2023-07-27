@@ -50,4 +50,4 @@
 </script>
 
 {$userEmail}
-<Button on:click={login}>loginz</Button>
+<Button on:click={login}>Login</Button>
