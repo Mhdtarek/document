@@ -101,7 +101,7 @@
   </div>
 
   <Container>
-    <p class="text-h6">Documents</p>
+    <p class="text-h6">Your documents</p>
     {#each Documents as document}
       <div class="d-flex justify-center" style="margin-top: 10px;">
         <Button on:click={() => getDocument(document[1])} block
